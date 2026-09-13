@@ -1,4 +1,5 @@
 import React from 'react';
+import bannerStack from '../assets/banner-stack.png';
 
 export const Hero: React.FC = () => {
   return (
@@ -38,7 +39,7 @@ export const Hero: React.FC = () => {
             <div className="relative w-full max-w-md lg:max-w-none">
               <div className="absolute -inset-1 bg-gradient-to-r from-pink-500/20 to-purple-500/20 rounded-3xl blur-2xl opacity-60"></div>
               <img
-                src="/assets/banner-stack.png"
+                src={bannerStack}
                 alt="Development Stack 3D Illustration"
                 className="relative w-full h-auto object-contain drop-shadow-xl hover:scale-[1.02] transition-transform duration-300"
               />
